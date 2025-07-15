@@ -1,0 +1,60 @@
+/* styles/style.css */
+
+/* Page background */
+body {
+    background: linear-gradient(to right, #f0fff0, #e6ffe6);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    color: #2E8B57;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+/* Subheaders */
+h2, h3, h4 {
+    color: #3a7c5d;
+    margin-top: 1em;
+}
+
+/* Prediction Result Box */
+.prediction-card {
+    background-color: #ffffff;
+    border-left: 6px solid #4CAF50;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Buttons */
+button, .stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #45a049;
+}
+
+/* Sidebar */
+.css-6qob1r, .css-1lcbmhc {
+    background-color: #eaffea !important;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 3em;
+}
